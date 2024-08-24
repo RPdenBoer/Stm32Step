@@ -1,4 +1,3 @@
-#if defined(STM32F4xx)
 #pragma once
 
 #include <wiring.h>
@@ -131,5 +130,3 @@ void TimerField::endAfterPulse()
 {
     lastPulse = true;
 }
-
-#endif
