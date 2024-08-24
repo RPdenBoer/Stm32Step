@@ -1,5 +1,3 @@
-#if defined(STM32F4xx)
-
 #include "TimerField.h"
 
 int TimerField::instances = 0;
@@ -116,4 +114,3 @@ TIM_TypeDef* TimerField::timer_mapping[MAX_TIMERS] = {
     nullptr
 #endif
 };
-#endif
